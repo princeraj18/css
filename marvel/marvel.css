@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#wrap{
+    height:100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+.container{
+    position: relative;
+    height:100%;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.background{
+    transform:translateZ(-40px) scale(5);
+    object-fit: cover;
+    height: 100vh;
+    width:100vw;    
+}
+.foreground{
+    flex-direction: column;
+    justify-content: center;
+    align-self: self-end;
+    top: 20rem;
+    transform:translateZ(-40px) scale(3);
+}
+.background, .foreground{
+position:absolute;
+
+object-fit: cover;
+z-index: -1;
+}
+h1{
+    position:absolute;
+    top:10rem;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    background-color: red;
+    color:white;
+    justify-content:center;
+    align-content: center;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+section{
+    background-color:rgb(45,45,45);
+    color:blanchedalmond;
+    padding:5rem 0;
+}
+.heading{
+    font-size:5rem;
+    padding:0 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text{
+    font-size:1.5rem;
+    padding:0 10rem;
+    margin:5rem 0;
+
+}
+.bg{
+    position:relative;
+    width: 100vw;;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:cover;
+    height:100vh;
+}
+.desc{
+    position:absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%)  ;
+    color:black;
+    font-size:3.5rem;
+    font-weight:600;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg1{
+    background-image: url(ironman.jpg);
+}
+
+.bg2{
+    background-image: url(captain1.jpg);
+}
+
+.bg3{
+    background-image: url(hulk.png.jpg);
+}
+.bg4{
+    background-image: url(blackwidow.png.jpg);
+}
+.bg5{
+    background-image: url(hawkeye.png.jpg);
+}
+
+.bg6{
+    background-image: url(blackpanther.png.jpg);
+}
+
+.bg7{
+    background-image: url(spiderman.png.jpg);
+}
+.bg8{
+    background-image: url(strange.jpg);
+}.bg9{
+    background-image: url(wanda.png.jpg);
+}
+
+.bg10{
+    background-image: url(vision.png.jpg);
+}
+
+.bg11{
+    background-image: url(thor.png.jpg);
+}
+.bg12{
+    background-image: url(deadpool.jpg);
+}
+.bg13{
+    background-image: url(venom.png.jpg);
+}
+
+
+
+
